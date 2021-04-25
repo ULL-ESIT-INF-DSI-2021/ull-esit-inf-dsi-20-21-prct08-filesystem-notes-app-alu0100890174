@@ -15,7 +15,7 @@ export class Note implements NoteStructure {
     constructor(
         public title: string,
         public body: string,
-        public color: string) {
+        public color: string = 'blue') {
             switch (color) {
                 case 'red':
                     let red: Color = 1;

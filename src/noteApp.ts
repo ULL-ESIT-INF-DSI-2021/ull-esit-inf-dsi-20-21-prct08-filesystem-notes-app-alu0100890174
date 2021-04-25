@@ -114,7 +114,7 @@ function main(): void {
         },
     handler(argv) {
         if (typeof argv.user === 'string' && typeof argv.title === 'string') {
-            const newNote = new Note(argv.title, argv.body, 'blue');
+            const newNote = new Note(argv.title, argv.body);
             const newProcessNote = new ProcessNote(argv.user, newNote);
             newProcessNote.remove();
         } else {
@@ -137,7 +137,7 @@ function main(): void {
         },
     handler(argv) {
         if (typeof argv.user === 'string') {
-            const newNote = new Note('', '', 'blue');
+            const newNote = new Note('', '');
             const newProcessNote = new ProcessNote(argv.user, newNote);
             newProcessNote.removeUser();
         
@@ -160,7 +160,7 @@ function main(): void {
         },
     handler(argv) {
         if (typeof argv.user === 'string') {
-            const newNote = new Note('', '', 'blue');
+            const newNote = new Note('', '');
             const newProcessNote = new ProcessNote(argv.user, newNote);
             newProcessNote.list(argv.user);
         
@@ -189,7 +189,7 @@ function main(): void {
         },
     handler(argv) {
         if (typeof argv.user === 'string' && typeof argv.title === 'string') {
-            const newNote = new Note(argv.title, '', 'blue');
+            const newNote = new Note(argv.title, '');
             const newProcessNote = new ProcessNote(argv.user, newNote);
             newProcessNote.read(argv.user, argv.title);
         } else {
