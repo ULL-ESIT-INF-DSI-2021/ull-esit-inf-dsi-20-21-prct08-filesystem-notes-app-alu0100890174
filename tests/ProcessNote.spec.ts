@@ -1,6 +1,6 @@
 import 'mocha';
 import {expect} from 'chai';
-import {Note, color} from '../src/Note';
+import {Note} from '../src/Note';
 import {ProcessNote} from '../src/ProcessNote';
 
 describe('Testing "ProcessNote Class"', () => {

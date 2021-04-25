@@ -5,7 +5,17 @@ const fs = require('fs');
 import {Note} from './Note';
 import {ProcessNote} from './ProcessNote';
 
+/**
+ * main. Función principal de nuestra aplicación utilizando:
+ *      Note y su api síncrona
+ *      Módulo yargs
+ *      Módulo chalk
+ */
 function main(): void {
+
+    /**
+     * Comando add
+     */
     yargs.command({
         command: 'add',
         describe: 'Add a new note',
@@ -46,6 +56,9 @@ function main(): void {
         },
     });
 
+    /**
+     * Comando modify
+     */
     yargs.command({
         command: 'modify',
         alias: 'm',
@@ -94,6 +107,9 @@ function main(): void {
     },
     });
 
+    /**
+     * Comando remove
+     */
     yargs.command({
         command: 'remove',
         alias: 'rm',
@@ -123,6 +139,9 @@ function main(): void {
     },
     });
 
+    /**
+     * Comando User Remove
+     */
     yargs.command({
         command: 'user-remove',
         alias: 'ur',
@@ -147,6 +166,9 @@ function main(): void {
     },
     });
 
+    /**
+     * Comando Listar
+     */
     yargs.command({
         command: 'list',
         describe: 'List notes from an user',
@@ -170,6 +192,9 @@ function main(): void {
     },
     });
 
+    /**
+     * Comando Leer nota
+     */
     yargs.command({
         command: 'read',
         describe: 'Read a note',
