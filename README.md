@@ -1,6 +1,6 @@
-h1 {
-  text-align: center;
-}
+<div class="myWrapper" markdown="1">
+# my markdown content
+</div>
 # - Desarrollo de Sistemas Informáticos -
 
 # - Grado en Ingeniería Informática -
