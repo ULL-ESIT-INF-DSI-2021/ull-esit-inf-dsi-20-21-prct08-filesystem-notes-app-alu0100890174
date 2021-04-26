@@ -1,13 +1,8 @@
-<p align="center"> <h1> - Desarrollo de Sistemas Informáticos - </h1> </p>
+#                              - Desarrollo de Sistemas Informáticos -
 
-<center> <h1>- Grado en Ingeniería Informática -</h1> </center>
-<center> <h1>- ULL -</h1> </center>
+#                              - Grado en Ingeniería Informática -
 
-# - Desarrollo de Sistemas Informáticos -
-
-# - Grado en Ingeniería Informática -
-
-# - ULL -
+#                              - ULL -
 
 <p align="center">
   <a href="https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct08-filesystem-notes-app-alu0100890174/actions/workflows/tests.yml">
