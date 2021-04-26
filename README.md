@@ -1,3 +1,6 @@
+<p align="center">
+  <h1>heading 1</h1>
+
 # - Desarrollo de Sistemas Informáticos -
 
 # - Grado en Ingeniería Informática -
