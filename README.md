@@ -8,6 +8,17 @@
 
 # - ULL -
 
+<p align="center">
+  <a href="https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct08-filesystem-notes-app-alu0100890174/actions/workflows/tests.yml">
+    <img alt="Tests" src="https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct08-filesystem-notes-app-alu0100890174/actions/workflows/tests.yml/badge.svg">
+  </a>
+  <a href="https://coveralls.io/github/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct08-filesystem-notes-app-alu0100890174?branch=master">
+    <img alt="Coverage Status" src="https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct08-filesystem-notes-app-alu0100890174/badge.svg?branch=master">
+  </a>
+  <a href="https://sonarcloud.io/dashboard?id=ULL-ESIT-INF-DSI-2021_ull-esit-inf-dsi-20-21-prct08-filesystem-notes-app-alu0100890174">
+    <img alt="Quality Gate Status" src="https://sonarcloud.io/api/project_badges/measure?project=ULL-ESIT-INF-DSI-2021_ull-esit-inf-dsi-20-21-prct08-filesystem-notes-app-alu0100890174&metric=alert_status">
+  </a>
+
 Eduardo Pérez Suárez - <alu0100890174@ull.edu.es>
 
 ## Informe Práctica 8 - Aplicación de procesamiento de notas de texto
