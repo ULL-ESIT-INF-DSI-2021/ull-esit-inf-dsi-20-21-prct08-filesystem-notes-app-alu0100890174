@@ -1,4 +1,4 @@
-<center>"# - Desarrollo de Sistemas Informáticos -"</center>
+<p align="center"># - Desarrollo de Sistemas Informáticos -
 
 # - Grado en Ingeniería Informática -
 
