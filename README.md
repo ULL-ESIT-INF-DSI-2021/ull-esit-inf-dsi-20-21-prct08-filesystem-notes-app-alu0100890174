@@ -1,6 +1,6 @@
-<div align="center">
-  <h3 # - Desarrollo de Sistemas Informáticos - </h3>
-</div>
+<p align="center">
+  <h1 # - Desarrollo de Sistemas Informáticos - </h1>
+</p>
 # - Grado en Ingeniería Informática -
 
 # - ULL -
