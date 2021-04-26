@@ -1,5 +1,5 @@
 <p align="center">
-  <a # - Desarrollo de Sistemas Informáticos -
+  <a Desarrollo de Sistemas Informáticos -
   </a>
 
 # - Desarrollo de Sistemas Informáticos -
