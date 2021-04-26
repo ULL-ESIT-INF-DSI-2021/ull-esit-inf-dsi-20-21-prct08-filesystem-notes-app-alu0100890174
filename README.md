@@ -4,6 +4,8 @@
 
 # - ULL
 
+***
+
 <p align="center">
   <a href="https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct08-filesystem-notes-app-alu0100890174/blob/master/LICENSE">
     <img alt="License: GPL v3" src="https://img.shields.io/github/license/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct08-filesystem-notes-app-alu0100890174">
@@ -18,6 +20,8 @@
     <img alt="Quality Gate Status" src="https://sonarcloud.io/api/project_badges/measure?project=ULL-ESIT-INF-DSI-2021_ull-esit-inf-dsi-20-21-prct08-filesystem-notes-app-alu0100890174&metric=alert_status">
   </a>
 
+***
+
 Eduardo Pérez Suárez - <alu0100890174@ull.edu.es>
 
 ## Informe Práctica 8 - Aplicación de procesamiento de notas de texto
@@ -30,4 +34,6 @@ El próposito general de la misma es tener nuestra primera toma de contacto con 
 
 Tambíen seguiremos avanzando en el desarrollo de cubrimiento, testing y seguridad del código usando `Github Actions`, `Coveralls` y `Sonar Cloud`. Seguimos utilizando documentación generada por `Typedoc` y comprobando el correcto funcionamiento por medio de las metodologías de desarrollo TDD usando `Mocha`y `Chai`.
 
-Puede acceder al informe usando el siguiente enlace [aquí](https://ull-esit-inf-dsi-2021.github.io/ull-esit-inf-dsi-20-21-prct08-filesystem-notes-app-alu0100890174/).
+***
+
+| [informe Github Pages](https://ull-esit-inf-dsi-2021.github.io/ull-esit-inf-dsi-20-21-prct08-filesystem-notes-app-alu0100890174/). |
