@@ -1,5 +1,6 @@
-<p align="center"># - Desarrollo de Sistemas Informáticos -
-
+<div align="center">
+  # - Desarrollo de Sistemas Informáticos -
+</div>
 # - Grado en Ingeniería Informática -
 
 # - ULL -
