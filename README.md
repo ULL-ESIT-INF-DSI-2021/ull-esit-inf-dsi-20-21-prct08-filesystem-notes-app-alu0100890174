@@ -1,5 +1,5 @@
 <p align="center">
-  <a <h1>heading 1</h1>>
+  <a # - Desarrollo de Sistemas Informáticos -
   </a>
 
 # - Desarrollo de Sistemas Informáticos -
