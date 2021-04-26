@@ -1,5 +1,5 @@
 <div align="center">
-  # - Desarrollo de Sistemas Informáticos -
+  <h3 # - Desarrollo de Sistemas Informáticos - </h3>
 </div>
 # - Grado en Ingeniería Informática -
 
