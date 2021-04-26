@@ -9,7 +9,7 @@ on:
     branches: [ master ]
 
 jobs:
-  Coveralls:
+  coveralls:
 
     runs-on: ubuntu-latest
 
@@ -21,7 +21,7 @@ jobs:
       with:
         node-version: 15.x
     - name: installing dependencies
-     run: npm install
+      run: npm install
     - name: Generating coverage information
       run: npm run coverage
     - name: Coveralls GitHub Action
