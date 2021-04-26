@@ -1,4 +1,4 @@
-<p align="center"> <h1>- Desarrollo de Sistemas Informáticos -</h1>
+<p align="center"> <h1> - Desarrollo de Sistemas Informáticos - </h1> </p>
 <center> <h1>- Grado en Ingeniería Informática -</h1> </center>
 <center> <h1>- ULL -</h1> </center>
 
