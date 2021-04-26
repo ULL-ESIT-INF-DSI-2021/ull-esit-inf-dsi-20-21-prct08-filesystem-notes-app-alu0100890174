@@ -604,4 +604,13 @@ UserYoda notes removed.
 
 #### 4. Conclusiones:
 
+En la realización de esta práctica he tenido que estudiar bastante módulos y funciones nuevas aunque ciertamente estaba familiarizado con funcionamientos similares de estas en otros lenguajes, `Node.js` tiene una capacidad desbordante de funcionalidades a la alcance de la mano y solo he visto algunas funciones de la API síncrona de este. 
+
+Realizando algunos Tests con `fs` he comprobado que existen funciones no soportadas en los tests de versiones anteriores a la 14.X de node, así que las he quitado de mis workflows.
+
+He tenido la oportunidad también de comparar el módulo `ìnquirer` que utilizamos en la práctica 7 para crear un menú interactivo en la terminal con este nuevo módulo `yargs` que permite manipular directamente con comandos, me quedo con el primero de estos dos pues me resulta más atractivo. Ademas casualmente utilicé tambien otro módulo de formato de estilo para mi código `colors`, frente a `chalk`, ambos con funcionalidades interesantes.
+
+Por último pero no menos importante, me he dado cuenta de que el simple hecho de añadir algunas dependencias de cubrimiento de código y seguridad, y observar que tus Status Badges salen en rojo da la suficiente rabia como para pegarte un buen rato luchando por mejorar el cubrimiento hasta que salga en verde, solo por eso ya vale la pena utilizar los workflows de github Pages.
+
+
 
