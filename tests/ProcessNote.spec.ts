@@ -2,6 +2,7 @@ import 'mocha';
 import {expect} from 'chai';
 import {Note} from '../src/Note';
 import {ProcessNote} from '../src/ProcessNote';
+const fs = require('fs');
 
 describe('Testing "ProcessNote Class"', () => {
     const newNote = new Note('Buenos días', 'Hola mundo!', 'green');
