@@ -20,16 +20,14 @@ interface NoteStructure {
 
 /**
  * Class Note . Implementa la Interfaz NoteStructure; 
- * representa una nota 
+ * representa una nota       
+ * @param color String con el valor del color
+ * @param title String con el nombre de la nota
+ * @param body  String con el contenido de la nota
+ * @param colorType Color Type con enumerable color
+ *      { blue=0, red=1, yellow=2, green=3}
  */
 export class Note implements NoteStructure {
-    /**
-     * @param color String con el valor del color
-     * @param title String con el nombre de la nota
-     * @param body  String con el contenido de la nota
-     * @param colorType Color Type con enumerable color
-     *      { blue=0, red=1, yellow=2, green=3}
-     */
     public colorType: color;
     constructor(
         public title: string,
