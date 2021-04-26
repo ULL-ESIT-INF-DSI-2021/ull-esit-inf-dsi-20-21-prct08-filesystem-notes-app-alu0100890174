@@ -334,7 +334,7 @@ UserEduardo notes removed.
 ```
 
 
-#### Programa Princiapl
+#### Programa Principal
 
 Mediante el uso del módulo yargs podemos especificar al programa que funciones y parámetros debe recibir nuestro programa para funcionar de forma correcta  ejecutandolo en la terminal, su uso es muy similar al utilizado por funciones comunes de la terminal de bash como podrían ser: echo, cat, ls, etc.
 
