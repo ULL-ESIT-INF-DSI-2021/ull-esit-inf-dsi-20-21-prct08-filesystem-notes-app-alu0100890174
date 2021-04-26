@@ -18,6 +18,7 @@ function main(): void {
      */
     yargs.command({
         command: 'add',
+        alias: 'a',
         describe: 'Add a new note',
         builder: {
             user: {
@@ -100,7 +101,7 @@ function main(): void {
             } 
             const newNote = new Note(argv.title, stackNote.body, stackNote.color);
             const newProcessNote = new ProcessNote(argv.user, newNote);
-            newProcessNote.modify;  
+            newProcessNote.modify();  
         } else {
             console.log(chalk.red("ERROR. Missing parameter."));
         }
@@ -171,6 +172,7 @@ function main(): void {
      */
     yargs.command({
         command: 'list',
+        alias: 'l',
         describe: 'List notes from an user',
         builder: {
             user: {
@@ -197,6 +199,7 @@ function main(): void {
      */
     yargs.command({
         command: 'read',
+        alias: 'r',
         describe: 'Read a note',
         builder: {
             user: {

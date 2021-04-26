@@ -3,10 +3,19 @@ import {expect} from 'chai';
 import {Note, color} from '../src/Note';
 
 describe('Testing "Note Class"', () => {
-    it('NewNote is created successfully', () => {
-        expect(new Note('Buenos días', 'Hola mundo!', 'green')).not.to.be.null;
-    });
+
     const newNote = new Note('Buenos días', 'Hola mundo!', 'green');
+    const newNote2 = new Note('Buenos días', 'Hola mundo!');
+
+    it('NewNote is created successfully', () => {
+        expect(new Note('Buenos días', 'Hola mundo!', 'yellow')).not.to.be.null;
+    });
+    it('NewNote is created successfully', () => {
+        expect(new Note('Buenos días', 'Hola mundo!', 'red')).not.to.be.null;
+    });
+    it('NewNote is created successfully', () => {
+        expect(new Note('Buenos días', 'Hola mundo!')).not.to.be.null;
+    });
     it('Note is an instance of Note Class', () => {
         expect(newNote).to.be.instanceOf(Note);
     });
@@ -21,5 +30,11 @@ describe('Testing "Note Class"', () => {
     });
     it('Note Color type parameter is "green".', () => {
         expect(newNote.colorType).to.be.equal(color.green);
+    });
+    it('Note Color parameter is "green".', () => {
+        expect(newNote2.color).to.be.equal("blue");
+    });
+    it('Note Color type parameter is "green".', () => {
+        expect(newNote2.colorType).to.be.equal(color.blue);
     });
 })

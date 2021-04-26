@@ -75,6 +75,10 @@ export class ProcessNote<N extends Note> {
         }
         this.write();
     }
+
+    /**
+     * Permite mostrar todas las notas de un usuario.
+     */    
     list(user: string) {
         fs.readdirSync(`./Notes/${user}`).forEach((notes) => {
 

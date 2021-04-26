@@ -36,13 +36,13 @@ export class Note implements NoteStructure {
         public body: string,
         public color: string = 'blue') {
             switch (color) {
-                case 'red':
-                    let red: Color = 0;
-                    this.colorType = red;
-                    break;
                 case 'blue':
-                    let blue: Color = 1;
+                    let blue: Color = 0;
                     this.colorType = blue;
+                    break;
+                case 'red':
+                    let red: Color = 1;
+                    this.colorType = red;
                     break;
                 case 'yellow':
                     let yellow: Color = 2;
